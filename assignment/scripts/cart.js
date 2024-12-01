@@ -7,7 +7,7 @@ function addItem(item) {
     basket.push(item);
     return true;
 }
-//Testing function
+
 console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
@@ -30,6 +30,12 @@ console.log(`Basket is now ${basket}`);
  listItems();
  console.log('Emptying basket (expect true)', empty());
  console.log(`Basket is now ${basket}`);
+
+ 
+
+ 
+
+
 
 
 
